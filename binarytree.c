@@ -14,6 +14,7 @@ if(root==NULL)
 {
 	newnode=(struct node*)malloc(sizeof(struct node));
 	newnode->data=data;
+	//yamete kudasaiii ahhh
 	newnode->lchild=newnode->rchild=NULL;
 	root=newnode;
 	count++;
